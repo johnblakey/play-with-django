@@ -11,13 +11,14 @@
             "program": "${workspaceFolder}/mysite/manage.py",
             "args": [
                 "runserver"
+                //"8002" // port, default is 8000, this 8002 entry overrides that (add comma above it)
             ],
             "django": true,
             "justMyCode": true,
             "serverReadyAction": {
                 "action": "openExternally",
-                "pattern": "http://127.0.0.1:8000",
-                "uriFormat": "http://127.0.0.1:8000",
+                "pattern": "http://127.0.0.1:8000",     // default port - is port changed above?
+                "uriFormat": "http://127.0.0.1:8000",   // default port - is port changed above?
                 "webRoot": "${workspaceFolder}/mysite/manage.py"
             },
             "env": {
