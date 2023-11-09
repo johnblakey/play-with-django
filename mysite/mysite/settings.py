@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # TODO - add reference to environment variable
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '<update_with_your_key>'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'Specified runtime environment variable is not set.')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True

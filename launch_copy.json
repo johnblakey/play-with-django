@@ -19,8 +19,10 @@
                 "pattern": "http://127.0.0.1:8000",
                 "uriFormat": "http://127.0.0.1:8000",
                 "webRoot": "${workspaceFolder}/mysite/manage.py"
+            },
+            "env": {
+                "SECRET_KEY": "<see_password_manager>",
             }
-
         }
     ]
 }
