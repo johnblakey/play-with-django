@@ -110,8 +110,7 @@ LANGUAGE_CODE = 'en-us'
 
 # https://stackoverflow.com/questions/26558422/django-and-time-zone
 # updated from UTC to PST, db time will need to be managed as well
-# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'PST'
 
 USE_I18N = True
 
