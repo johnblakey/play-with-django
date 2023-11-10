@@ -29,7 +29,10 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# https://docs.djangoproject.com/en/4.2/intro/tutorial02/#database-setup
+# Theses are the Django applications that are activated in this Django instance.
+# Apps can be used in multiple projects, and you can package and distribute them
+# for use by others in their projects.
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -105,6 +108,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+# https://stackoverflow.com/questions/26558422/django-and-time-zone
+# updated from UTC to PST, db time will need to be managed as well
 TIME_ZONE = 'PST'
 
 USE_I18N = True
