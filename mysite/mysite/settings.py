@@ -105,8 +105,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-# https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/
-# https://stackoverflow.com/questions/26558422/django-and-time-zone
 TIME_ZONE = 'PST'
 
 USE_I18N = True
