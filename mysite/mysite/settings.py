@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Apps can be used in multiple projects, and you can package and distribute them
 # for use by others in their projects.
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -110,7 +111,8 @@ LANGUAGE_CODE = 'en-us'
 
 # https://stackoverflow.com/questions/26558422/django-and-time-zone
 # updated from UTC to PST, db time will need to be managed as well
-TIME_ZONE = 'PST'
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
