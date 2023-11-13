@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 # Apps can be used in multiple projects, and you can package and distribute them
 # for use by others in their projects.
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
