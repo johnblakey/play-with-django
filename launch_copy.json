@@ -17,8 +17,8 @@
             "justMyCode": true,
             "serverReadyAction": {
                 "action": "openExternally",
-                "pattern": "http://127.0.0.1:8000/polls/",     // default port - is port changed above?
-                "uriFormat": "http://127.0.0.1:8000/polls/",   // default port - is port changed above?
+                "pattern": "http://127.0.0.1:8000/",     // default port - is port changed above?
+                "uriFormat": "http://127.0.0.1:8000/",   // default port - is port changed above?
                 "webRoot": "${workspaceFolder}/mysite/manage.py"
             },
             "env": {
